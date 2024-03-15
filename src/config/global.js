@@ -1,7 +1,8 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE_DEL_COMPONENTE_FORMATIVO',
-    descripcionCurso: 'BREVE_DESCRIPCIÓN',
+    componenteFormativo: 'Datos y sistemas de información',
+    descripcionCurso:
+      'Los cambios que afrontan las organizaciones, producto de la globalización y de los avances tecnológicos, donde el almacenamiento y la clasificación de los datos es cada vez más importante, permite  considerar la manipulación de dichos volúmenes de datos, lo cual trae consigo un alto grado de responsabilidad en seguridad, conservación y no duplicación, monitoreando siempre los riesgos que pueden presentarse.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
@@ -31,13 +32,43 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Titulo_de_primer_nivel',
+        titulo: 'Datos',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '1.1',
-            titulo: 'Titulo_de_segundo_nivel',
+            titulo: 'Clasificación',
             hash: 't_1_1',
+          },
+          {
+            numero: '1.2',
+            titulo: 'Variables',
+            hash: 't_1_2',
+          },
+          {
+            numero: '1.3',
+            titulo: 'Analítica',
+            hash: 't_1_3',
+          },
+          {
+            numero: '1.4',
+            titulo: 'Normativa',
+            hash: 't_1_4',
+          },
+          {
+            numero: '1.5',
+            titulo: 'Herramientas de análisis',
+            hash: 't_1_5',
+          },
+          {
+            numero: '1.6',
+            titulo: '<i>Big data</i>',
+            hash: 't_1_6',
+          },
+          {
+            numero: '1.7',
+            titulo: 'Confidencialidad',
+            hash: 't_1_7',
           },
         ],
       },
@@ -45,14 +76,35 @@ export default {
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Titulo_de_primer_nivel',
+        titulo: 'Sistemas de información',
         desarrolloContenidos: true,
-      },
-      {
-        nombreRuta: 'tema3',
-        numero: '3',
-        titulo: 'Titulo_de_primer_nivel',
-        desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '2.1',
+            titulo: '<i>Software</i> malicioso',
+            hash: 't_2_1',
+          },
+          {
+            numero: '2.2',
+            titulo: 'Herramientas de seguridad',
+            hash: 't_2_2',
+          },
+          {
+            numero: '2.3',
+            titulo: 'Políticas de usuario',
+            hash: 't_2_3',
+          },
+          {
+            numero: '2.4',
+            titulo: 'Conservación de la información',
+            hash: 't_2_4',
+          },
+          {
+            numero: '2.5',
+            titulo: 'Gestión del sistema basado en riesgos',
+            hash: 't_2_5',
+          },
+        ],
       },
     ],
     subMenu: [
@@ -102,28 +154,76 @@ export default {
   },
   complementario: [
     {
-      tema: 'Tema_complementario',
-      referencia: 'Referencia_complementario',
-      tipo: 'Tipo_complementario',
-      link: 'Link_complementario',
+      tema: '<i>Big data</i>',
+      referencia:
+        'Dawn, H. &  Otero-Piñeiro, D. (2018). Big data: una breve introducción. Antoni Bosch Editor.',
+      tipo: 'Libro',
+      link:
+        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_elibroELB122682',
     },
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      descarga: '/downloads/prueba.pdf',
+      tema: '<i>Big data</i>',
+      referencia:
+        'Spain BS. (2015). Webinar "big data para dummies" [video]. YouTube.',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=fZhpLdZx5Qg&ab_channel=SpainBS',
+    },
+    {
+      tema: 'Sistemas de información',
+      referencia:
+        'Instituto Colombiano de Normas Técnicas y Certificación. (2014). Tecnología de la información: técnicas de seguridad. Gestión de incidentes de seguridad de la información. ICONTEC. ',
+      tipo: 'Libro',
+      link:
+        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/q6j6k0/sena_aleph000075887',
+    },
+    {
+      tema: '<i>Software</i> malicioso',
+      referencia:
+        'Razak, M., Anuar, N., Salleh, R. & Firdaus, A. (2016). The rise of “malware”: bibliometric analysis of malware study. Journal of network and computer applications (75), p. 58-76. ',
+      tipo: 'Artículo',
+      link:
+        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1i756fj/TN_cdi_gale_infotracacademiconefile_A518245030',
     },
   ],
   glosario: [
     {
-      termino: 'Termino_glosario',
-      significado: 'Significado_glosario',
+      termino: '<i>Big data</i>',
+      significado:
+        'Fenómeno que se caracteriza por la generación de grandes volúmenes de datos en diversas fuentes de información y a una rápida velocidad en su generación. Es un sistema sociotécnico para la explotación masiva de datos, que requiere en las entidades públicas la disponibilidad de recursos tecnológicos para enfrentar los retos de procesamiento, el diseño y ejecución de procesos que permitan la replicabilidad y la sistematización de la explotación de datos y el recurso humano para ejecutarlos.',
+    },
+    {
+      termino: 'Datos',
+      significado:
+        'Se denomina dato a cualquier objeto que pueda entregar información o significado para el lector. El dato puede ser manipulable en forma manuscrita o por medio de un computador. Puede ser un carácter capturado desde un teclado, extraído de algún espacio de memoria en disco o almacenado en la memoria central.',
+    },
+    {
+      termino: 'Seguridad de la información',
+      significado:
+        'Es la encargada de proteger los datos contra robo de información, acceso no autorizado, obstaculización al sistema informático, manipulación y/o eliminación de datos. Cuando se habla de procesos empresariales impulsados en la transformación digital con tecnología de punta se entiende que están expuestos a diferentes vulnerabilidades, amenazas y ataques informáticos dirigidos a la seguridad y la privacidad de la información. Mediante la Norma ISO 27001 la implementación del SGSI sigue el modelo Planificar – Hacer – Verificar – Actuar para la mejora continua de los procesos.',
+    },
+    {
+      termino: 'Variables',
+      significado:
+        'Es el nombre que se da a una serie de caracteres con el fin de categorizar o interpretar de una forma más sencilla alguna información que se quiera estudiar, también pueden almacenar distintos tipos de datos: enteros, reales, matriciales, caracteres, etc.',
     },
   ],
   referencias: [
     {
-      referencia: 'Nombre_referencias',
-      link: 'Link_referencias',
+      referencia:
+        'Archivo General de la Nación. (2018). Fundamentos de preservación digital a largo plazo. Archivo General de la Nación.',
+      link:
+        'https://www.archivogeneral.gov.co/caja_de_herramientas/docs/6.%20preservacion/DOCUMENTOS%20TECNICOS/FUNDAMENTOS%20PRESERVACION%20DIGITAL%20LARGO%20PLAZO.pdf',
+    },
+    {
+      referencia:
+        'DNP. (2020). Guía normativa aplicable a la explotación de datos. DNP.',
+      link:
+        'https://colaboracion.dnp.gov.co/CDT/Desarrollo%20Digital/Documentos/Modelo%20Explotacion%20de%20datos/2.3%20Gu%C3%ADa%20normativa%20explotaci%C3%B3n%20de%20datos_VF.pdf',
+    },
+    {
+      referencia:
+        'Glosarioit.com. (2022). Dato - Sección informática. Glosarioit.',
+      link: 'https://www.glosarioit.com/Dato',
     },
   ],
   creditos: [
