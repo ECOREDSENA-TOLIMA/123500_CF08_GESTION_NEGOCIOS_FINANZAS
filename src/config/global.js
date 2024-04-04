@@ -138,7 +138,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/prueba.pdf',
+        download: 'downloads/123500_CF08_DU.zip',
       },
       {
         icono: 'fas fa-download',
@@ -231,7 +231,7 @@ export default {
       titulo: 'ECOSISTEMA DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Claudia Patricia Aristizábal Gutiérrez',
+          nombre: 'Milady Tatiana Villamil Castellanos',
           cargo: 'Responsable del equipo',
           centro: 'Dirección General',
         },
@@ -246,9 +246,37 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Nombre_responsable',
-          cargo: 'Nombre_rol',
-          centro: 'Nombre_centro_formación',
+          nombre: 'Abel Fernando Becerra Carrillo',
+          cargo: 'Experto temático',
+          centro:
+            'Centro de la Industria, la Empresa y los Servicios - Regional Norte de Santander',
+        },
+        {
+          nombre: 'Miroslava GonzálezHernández',
+          cargo: 'Diseño y evaluadora instruccional',
+          centro:
+            'Centro de la Industria, la Empresa y los Servicios - Regional Norte de Santander',
+        },
+        {
+          nombre: 'Silvia Milena SequedaCárdenas',
+          cargo: 'Asesoría metodológica',
+          centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
+        },
+        {
+          nombre: 'Rafael Neftalí Lizcano Reyes',
+          cargo: 'Responsable Equipo de desarrollo curricular',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Distrito Capital',
+        },
+        {
+          nombre: 'Julia Isabel Roberto',
+          cargo: 'Corrección de estilo',
+          centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
+        },
+        {
+          nombre: 'Andrés Felipe Velandia Espitia',
+          cargo: 'Evaluación instruccional',
+          centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
       ],
     },
@@ -256,18 +284,23 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre_responsable',
-          cargo: 'Diseñador web',
+          nombre: 'Ernesto Navarro Jaimes',
+          cargo: 'Producción audiovisual',
           centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
         {
-          nombre: 'Diego Fernando Velasco Güiza',
-          cargo: 'Desarrollador Fullstack',
+          nombre: 'Gilberto Junior Rodríguez Rodríguez',
+          cargo: 'Producción audiovisual',
           centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
         {
-          nombre: 'Nombre_responsable',
-          cargo: 'Animación y producción audiovisual',
+          nombre: 'Luis Fernando Botero Mendoza',
+          cargo: 'Diseño web',
+          centro: 'Centro de Comercio y Servicios - Regional Tolima',
+        },
+        {
+          nombre: 'Sebastian Trujillo Afanador',
+          cargo: 'Desarrollo Fullstack',
           centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
       ],
@@ -276,17 +309,12 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: 'Nombre_responsable',
+          nombre: 'Jorge Eduardo Rueda Peña',
           cargo: 'Evaluación de contenidos inclusivos y accesibles',
           centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
         {
-          nombre: 'Nombre_responsable',
-          cargo: 'Validación de recursos educativos digitales',
-          centro: 'Centro de Comercio y Servicios - Regional Tolima',
-        },
-        {
-          nombre: 'Nombre_responsable',
+          nombre: 'Javier Mauricio Oviedo',
           cargo: 'Validación de recursos educativos digitales',
           centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },

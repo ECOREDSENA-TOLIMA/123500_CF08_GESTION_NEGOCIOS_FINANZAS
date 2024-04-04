@@ -10,12 +10,12 @@
             img(src="@/assets/template/falso-verdadero.svg", alt="Imagen decorativa")
       .col-12.col-md-8.col-lg-9(data-aos="fade-left")
         .titulo-segundo
-          h2 Nombre_de_la_actividad
-        p.mb-4 Objetivo_actividad
+          h2 Datos y sistemas de información
+        p.mb-4 Reconocer los conceptos relacionados con los datos y sistemas de información, como bases fundamentales para el análisis y toma de decisiones organizacionales.
         .tarjeta.actividad.p-3
           .row.justify-content-around.align-items-center            
             .col-sm.mb-3.mb-sm-0
-              p.fw-bold.mb-0 Tipo_de_actividad
+              p.fw-bold.mb-0 Falso y verdadero.
             .col-auto
               a.boton.boton--b(:href="obtenerLink('/actividades/actividad.html')" target="_blank")
                 span Realizar

@@ -1,1 +1,1 @@
-module.exports = 'NOMBRE_DEL_COMPONENTE_FORMATIVO'
+module.exports = 'Datos y sistemas de información'

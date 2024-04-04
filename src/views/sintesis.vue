@@ -3,7 +3,7 @@
   BannerInterno(icono="fas fa-sitemap" titulo="Síntesis")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
 
-    p.mb-5(data-aos="fade-right") A_continuación_se_muestra_un_mapa_conceptual
+    p.mb-5(data-aos="fade-right") Identificar, organizar y sistematizar datos masivos, de acuerdo con métodos de analítica y herramientas tecnológicas le permite a una organización tomar decisiones estratégicas en su diario operativo. Es por ello que su sistema de información y la gestión del mismo deben garantizar no solo la confiabilidad del procesamiento, sino la alineación con la normativa y políticas establecidas para la seguridad y uso del tratamiento de la información. El siguiente gráfico presenta una síntesis de lo desarrollado en este componente.
 
     .row.justify-content-center
       .col-lg-10.mb-5(data-aos="fade-right")

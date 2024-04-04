@@ -245,9 +245,9 @@
             //- LineaTiempoD debe ir acompañado de una de una de estas clases => 
             //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
             LineaTiempoD.color-secundario
-              p.text-small(numero="1" titulo="WEKA") Es una plataforma de software libre desarrollado por la Universidad de Waikato (Nueva Zelanda), que sirve para desarrollar minería de datos y aprendizaje automático mediante herramientas integradas de preparación, clasificación, regresión, agrupación, minería de reglas de asociación y visualización de datos. Weka está escrito en <i>Java</i> y se puede descargar en el siguiente enlace: https://www.cs.waikato.ac.nz/ml/weka/
+              p.text-small(numero="1" titulo="WEKA") Es una plataforma de <i>software</i> libre desarrollado por la Universidad de Waikato (Nueva Zelanda), que sirve para desarrollar minería de datos y aprendizaje automático mediante herramientas integradas de preparación, clasificación, regresión, agrupación, minería de reglas de asociación y visualización de datos. Weka está escrito en <i>Java</i> y se puede descargar en el siguiente enlace: https://www.cs.waikato.ac.nz/ml/weka/
               
-              p.text-small(numero="2" titulo="KNIME") Es una plataforma para minería de datos que permite desarrollar modelos en un entorno gráfico. El software permite crear mediante mezcla, transformación, modelación y visualización de los datos de manera gráfica, también permite la producción para implementar, administrar, consumir e interactuar con todo el volumen de datos recopilados. KNIME tiene una versión de prueba que puede descargarse en: https://www.knime.com/downloads
+              p.text-small(numero="2" titulo="KNIME") Es una plataforma para minería de datos que permite desarrollar modelos en un entorno gráfico. El <i>software</i> permite crear mediante mezcla, transformación, modelación y visualización de los datos de manera gráfica, también permite la producción para implementar, administrar, consumir e interactuar con todo el volumen de datos recopilados. KNIME tiene una versión de prueba que puede descargarse en: https://www.knime.com/downloads
               
               p.text-small(numero="3" titulo="ORANGE") Es un programa de código abierto que permite realizar minería de datos y análisis predictivo desarrollado por la Universidad de Ljubljana (Eslovenia). Permite crear flujos de trabajo de análisis de datos visualmente con una caja de herramientas grande y diversa. ORANGE puede descargarse en https://orangedatamining.com/
       .col-lg-5.col-md-8.col-10
@@ -265,7 +265,7 @@
                 img(src='@/assets/curso/temas/tema1/17.svg', alt='Imagen decorativa')
                 figcaption Tomado de HgDeviasse (2015)
             .col-lg-7.col-md-6.mb-4.mb-md-0.col-12
-              p Es un entorno de software libre para computación estadística y gráficos. Es unos de los lenguajes más populares, debido a que cuenta con una amplia gama de librerías que incrementan sus funcionalidades. La comunidad de R-Studio mantiene actualizaciones constantes y respaldo continuo.
+              p Es un entorno de <i>software</i> libre para computación estadística y gráficos. Es unos de los lenguajes más populares, debido a que cuenta con una amplia gama de librerías que incrementan sus funcionalidades. La comunidad de R-Studio mantiene actualizaciones constantes y respaldo continuo.
               p R puede ser descargado gratuitamente en https://www.r-project.org/
         .py-3.py-md-4(titulo="<i>Python</i>")
           .row
@@ -365,7 +365,7 @@
 
     .row.justify-content-center.mb-5
       .col-lg-7.col-md-10.col-12
-        p(data-aos="fade-left") Ahora bien, dentro de ese vínculo la privacidad desde el diseño busca garantizar un correcto tratamiento de los datos en los procesos de inteligencia artificial, incluso antes de la materialización de los riesgos. Lo anterior conduce a que se use la privacidad como un factor relevante del diseño, la arquitectura de software o el algoritmo para fomentar el uso adecuado del tratamiento de los datos, porque la confidencialidad dentro del ciclo de vida del producto busca convertirse además en un modo de operación predeterminado para las organizaciones, en el que antes de recolectada la información se puedan adoptar medidas preventivas de diversa naturaleza que eviten fallas de seguridad, vulneración en los derechos de privacidad y confidencialidad, y el uso indebido del tratamiento de datos personales.
+        p(data-aos="fade-left") Ahora bien, dentro de ese vínculo la privacidad desde el diseño busca garantizar un correcto tratamiento de los datos en los procesos de inteligencia artificial, incluso antes de la materialización de los riesgos. Lo anterior conduce a que se use la privacidad como un factor relevante del diseño, la arquitectura de <i>software</i> o el algoritmo para fomentar el uso adecuado del tratamiento de los datos, porque la confidencialidad dentro del ciclo de vida del producto busca convertirse además en un modo de operación predeterminado para las organizaciones, en el que antes de recolectada la información se puedan adoptar medidas preventivas de diversa naturaleza que eviten fallas de seguridad, vulneración en los derechos de privacidad y confidencialidad, y el uso indebido del tratamiento de datos personales.
       .col-lg-5.col-md-8.col-10
         figure
           img(src='@/assets/curso/temas/tema1/25.svg', alt='Imagen decorativa')
