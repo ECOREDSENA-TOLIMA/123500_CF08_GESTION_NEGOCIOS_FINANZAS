@@ -52,7 +52,7 @@
     #t_1_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 1.1 Clasificación
     
-    p(data-aos="fade-left") Los datos se pueden clasificar de acuerdo con su tipo y estructura, dependiendo en qué categoría estén se pueden manipular mediante operaciones aritméticas o lógicas que darán como resultado la información que se quiere entregar.
+    p(data-aos="fade-left") Los datos se pueden clasificar de acuerdo con su tipo y estructura, dependiendo en qué categoría estén, se pueden manipular mediante operaciones aritméticas o lógicas que darán como resultado la información que se quiere entregar.
 
     .row.justify-content-center.desktop
       ImagenInfografica.color-acento-botones.mb-5
@@ -81,7 +81,7 @@
           p Por ejemplo, 0,34 ;  -9,87
         .tarjeta.color-acento-botones.p-3(x="86.5%" y="63%" numero="+")
           .h5.mb-2 Lógicos
-          p Son los datos que pueden tomar solo dos valores lógicos: verdadero (true) o falso (false).
+          p Son los datos que pueden tomar solo dos valores lógicos: verdadero (#[em true]) o falso (#[em false]).
         .tarjeta.color-acento-botones.p-3(x="82%" y="83.8%" numero="+")
           .h5.mb-2 Caracteres
           p Son datos que pueden tomar diferentes valores numéricos, alfanuméricos o especiales. 
@@ -107,7 +107,7 @@
       h2 1.2 Variables
     p.mb-5(data-aos="fade-left") Es el nombre que se le da a una serie de caracteres con el fin de categorizar o interpretar de una forma más sencilla alguna información que se quiera estudiar, también pueden almacenar distintos tipos de datos: enteros, reales, matriciales, caracteres, etc. Las variables cuentan con instrucciones de asignación que sirven para almacenar ese valor del dato, por ejemplo, VARIABLE = EXPRESIÓN, donde el signo = significa “ALMACENAR EN”. En el siguiente recurso se presentan otros ejemplos de almacenamiento.
     .row.justify-content-center.mb-5
-        .col-lg-6.col-md-8.col-10
+        .col-lg-8.col-md-10.col-12
           .titulo-sexto.color-acento-contenido.mb-5(data-aos="fade-right")
             h5 Figura 4.
             span <i>Ejemplo de almacenamiento.</i> 
@@ -346,7 +346,7 @@
 
     figure.mb-5(data-aos="zoom-in")
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/EDZWl2jqXIQ" title="Big data" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
     separador
     #t_1_7.titulo-segundo.color-acento-contenido(data-aos="fade-right")
@@ -372,7 +372,7 @@
     p.mb-5(data-aos="fade-left") Las medidas adoptadas para asegurar el tratamiento de los datos en la inteligencia artificial deben cumplir con los siguientes objetivos.
 
     .row.justify-content-center.mb-5
-        .col-lg-6.col-md-8.col-10
+        .col-lg-8.col-md-10.col-12
           .titulo-sexto.color-acento-contenido.mb-5(data-aos="fade-right")
             h5 Figura 5.
             span <i>Objetivos.</i> 

@@ -55,8 +55,8 @@
               figure
                 img(src='@/assets/curso/temas/tema2/4.svg', alt='Imagen decorativa')
             .col-lg-7.col-md-6.mb-4.mb-md-0.col-12
-              p Todos los computadores que estén conectados a una red interna o a Internet deben contar con un antivirus gratuito o pago, pero que sea confiable. Estos programas permiten contar con medidas de protección efectivas cuando el equipo se encuentre expuesto a <i>software</i> malicioso o a cualquier otro tipo de malware. Estos programas ofrecen la oportunidad de eliminarlo por completo o poner en estado de cuarentena.
-              p Kaspersky, Avast, Nod32, McAfee, son algunas de las posibilidades que se pueden encontrar en el mercado actual; lo más importante es que cualquier solución de antivirus en la que el usuario quiera confiar debe tener la certeza que se adapte a las necesidades de seguridad y cuentan con actualizaciones constantes, debido a que los malware están en continua evolución.
+              p Todos los computadores que estén conectados a una red interna o a Internet deben contar con un antivirus gratuito o pago, pero que sea confiable. Estos programas permiten contar con medidas de protección efectivas cuando el equipo se encuentre expuesto a <i>software</i> malicioso o a cualquier otro tipo de <em>malware</em>. Estos programas ofrecen la oportunidad de eliminarlo por completo o poner en estado de cuarentena.
+              p Kaspersky, Avast, Nod32, McAfee, son algunas de las posibilidades que se pueden encontrar en el mercado actual; lo más importante es que cualquier solución de antivirus en la que el usuario quiera confiar debe tener la certeza que se adapte a las necesidades de seguridad y cuentan con actualizaciones constantes, debido a que los <em>malware</em> están en continua evolución.
         .py-3.py-md-4(titulo="<i>Firewall </i>perimetral de red")
           .row
             .col-lg-5.col-md-6.col-10
@@ -66,13 +66,13 @@
               p Como su nombre lo indica, hace la función de una pared de bloqueo. Es un sistema cuya función es prevenir y protegerlo privado de ataques de otras redes.
               p Su funcionamiento es sencillo: escanea los paquetes de red, permitiéndoles o bloqueándolos según las reglas definidas por un administrador.
 
-        .py-3.py-md-4(titulo="Servidor proxy")
+        .py-3.py-md-4(titulo="Servidor <em>proxy</em>")
           .row
             .col-lg-5.col-md-6.col-10
               figure
                 img(src='@/assets/curso/temas/tema2/6.svg', alt='Imagen decorativa')
             .col-lg-7.col-md-6.mb-4.mb-md-0.col-12
-              p Un proxy es un es un servidor, puede ser un programa o dispositivo físico, que actúa de intermediario entre conexiones del navegador e Internet, filtrando todos los paquetes entre ambos.
+              p Un <em>proxy</em> es un es un servidor, puede ser un programa o dispositivo físico, que actúa de intermediario entre conexiones del navegador e Internet, filtrando todos los paquetes entre ambos.
               p Asimismo, establece un sistema de autentificación, que limita el acceso a la red externa, por lo cual, se pueden generar los registros sobre sitios, visitas y demás datos de navegación.
         .py-3.py-md-4(titulo="Cifrado de punto final o <i>end point disk encryption</i>")
           .row
@@ -189,13 +189,13 @@
           span <i>SGSI.</i> 
         figure(data-aos="zoom-in")
           img(src='@/assets/curso/temas/tema2/13.svg' alt='Imagen que contiene un esquema gráfico sobre lo que representa el SGSI y la gestión del riesgo.')
-    .row.justify-content-center.mb-5
-      .col-lg-5.col-md-10.col-12.mb-5
+    .row.justify-content-center.mb-4
+      .col-lg-5.col-md-10.col-12
         figure(data-aos="zoom-in")
           img(src='@/assets/curso/temas/tema2/14.png' alt='Imagen decoractiva')
       .col-lg-7.col-md-10.col-12
-        .row.mb-5
-          .col-sm.mb-5.mb-sm-0
+        .row
+          .col-sm.mb-sm-0
             ol.lista-ol--cuadro
               li 
                 .lista-ol--cuadro__vineta
@@ -209,10 +209,10 @@
                 .lista-ol--cuadro__vineta
                   span 3
                 | IsoMetrix.
-            p(data-aos="fade-left") En la identificación de riesgos se debe recordar que la inseguridad se enuncia en procesos de la composición de los resultados de un suceso y la probabilidad de ocurrencia asociada. A continuación se presentan las posibles fuentes de riesgos y consecuencias que pueden traer a la seguridad de la información de la organización.
+            p(data-aos="fade-left") En la identificación de riesgos se debe recordar que la inseguridad se enuncia en procesos de la composición de los resultados de un suceso y la probabilidad de ocurrencia asociada. A continuación, se presentan las posibles fuentes de riesgos y consecuencias que pueden traer a la seguridad de la información de la organización.
     .row.justify-content-center.mb-5
-      .col-lg-10.col-12.mb-5
-        .titulo-sexto.color-acento-contenido.mb-5(data-aos="fade-right")
+      .col-lg-11.col-12
+        .titulo-sexto.color-acento-contenido.mb-2(data-aos="fade-right")
           h5 Figura 8.
           span <i>Riesgos y consecuencias.</i> 
         figure(data-aos="zoom-in")

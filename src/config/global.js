@@ -156,7 +156,7 @@ export default {
     {
       tema: '<i>Big data</i>',
       referencia:
-        'Dawn, H. &  Otero-Piñeiro, D. (2018). Big data: una breve introducción. Antoni Bosch Editor.',
+        'Dawn, H. &  Otero-Piñeiro, D. (2018). <i>Big data</i>: una breve introducción. Antoni Bosch Editor.',
       tipo: 'Libro',
       link:
         'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_elibroELB122682',
@@ -164,7 +164,7 @@ export default {
     {
       tema: '<i>Big data</i>',
       referencia:
-        'Spain BS. (2015). Webinar "big data para dummies" [video]. YouTube.',
+        'Spain BS. (2015). <em>Webinar "big data para dummies"</em> [video]. YouTube.',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=fZhpLdZx5Qg&ab_channel=SpainBS',
     },
@@ -179,7 +179,7 @@ export default {
     {
       tema: '<i>Software</i> malicioso',
       referencia:
-        'Razak, M., Anuar, N., Salleh, R. & Firdaus, A. (2016). The rise of “malware”: bibliometric analysis of malware study. Journal of network and computer applications (75), p. 58-76. ',
+        'Razak, M., Anuar, N., Salleh, R. & Firdaus, A. (2016). The rise of <em>“malware”</em>: bibliometric analysis of malware study. <em>Journal of network and computer applications</em> (75), p. 58-76. ',
       tipo: 'Artículo',
       link:
         'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1i756fj/TN_cdi_gale_infotracacademiconefile_A518245030',
