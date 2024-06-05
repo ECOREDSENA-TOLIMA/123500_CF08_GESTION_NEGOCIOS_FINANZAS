@@ -179,7 +179,7 @@ export default {
     {
       tema: '<i>Software</i> malicioso',
       referencia:
-        'Razak, M., Anuar, N., Salleh, R. & Firdaus, A. (2016). The rise of <em>“malware”</em>: bibliometric analysis of malware study. <em>Journal of network and computer applications</em> (75), p. 58-76. ',
+        'Razak, M., Anuar, N., Salleh, R. & Firdaus, A. (2016). The rise of <em>“malware”: bibliometric analysis of malware study.</em> <em>Journal of network and computer applications</em> (75), p. 58-76. ',
       tipo: 'Artículo',
       link:
         'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1i756fj/TN_cdi_gale_infotracacademiconefile_A518245030',

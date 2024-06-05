@@ -18,12 +18,13 @@
 
     .container.py-2.fondo-1.mb-5
       .row.justify-content-center
-        .col-lg-6.col-12.mb-5
+        .col-lg-10.col-12.mb-5
           .titulo-sexto.color-acento-contenido.mb-5(data-aos="fade-right")
             h5 Figura 6.
             span <i>Estandarización de procesos.</i> 
           figure(data-aos="zoom-in")
-            img(src='@/assets/curso/temas/tema2/2.svg' alt='Imagen que hace referencia a la importancia de la Norma ISO 27000 en la aparición de los conceptos de Gestión en Sistemas de Seguridad Informática y de la Información (SGSI).')
+            img.d-none.d-sm-none.d-md-block(src='@/assets/curso/temas/tema2/2.svg' alt='Imagen que hace referencia a la importancia de la Norma ISO 27000 en la aparición de los conceptos de Gestión en Sistemas de Seguridad Informática y de la Información (SGSI).')
+            img.d-block.d-md-none(src='@/assets/curso/temas/tema2/2A.svg' alt='Imagen que hace referencia a la importancia de la Norma ISO 27000 en la aparición de los conceptos de Gestión en Sistemas de Seguridad Informática y de la Información (SGSI).')
         .col-lg-10.col-12
           .cajon.color-secundario.p-4.mb-4(data-aos="fade-right") 
             p En la actualidad, la mayor parte de la información reside en servidores, redes de información y almacenamientos como la nube, los discos extraíbles y <i>backups</i>, enmarcados dentro de lo que se conoce como sistemas de información. Dichos sistemas de información están sujetos a vulnerabilidades, ataques informáticos, riesgos e inseguridades, tanto dentro de la propia organización como desde fuera.
@@ -34,7 +35,7 @@
 
     figure.mb-5(data-aos="zoom-in")
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/JJMqkRYFdc8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     separador
     #t_2_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 2.2 Herramientas de seguridad
@@ -107,34 +108,57 @@
           )(data-aos="fade-right")
           .bloque-texto-g__texto.p-4
             p.mb-0 Las amenazas que están en Internet no son la causa de un ser humano con intenciones maliciosas, si no de los mismos empleados, que al no estar capacitados pueden descargar programas que vienen con troyanos o sin intención maliciosa que pueden mover un directorio o archivo.
-    p(data-aos="fade-left") De ahí la importancia de revisar también las políticas de usuario por el departamento TI de la organización, las cuales describen y establecen las reglas o requisitos que se deben tener en cuenta en los distintos procedimientos de uso en las cuentas del sistema de información de la empresa, entre ellas se encuentran las siguientes:
+    p.mb-4(data-aos="fade-left") De ahí la importancia de revisar también las políticas de usuario por el departamento TI de la organización, las cuales describen y establecen las reglas o requisitos que se deben tener en cuenta en los distintos procedimientos de uso en las cuentas del sistema de información de la empresa, entre ellas se encuentran las siguientes:
 
     .row.justify-content-center
-      .col-lg-10.col-12
+      .col-lg-10.col-12.d-none.d-sm-none.d-md-block
         ImagenInfografica.color-acento-botones.mb-5
           template(v-slot:imagen)
             figure
               img(src='@/assets/curso/temas/tema2/10.svg', alt='Imagen decorativa')
-          .tarjeta.color-acento-botones.p-3(x="59%" y="16.7%" numero="+")
+          .tarjeta.color-acento-contenido-x.p-3(x="60%" y="16%" numero="+")
             .h5.mb-2 Proteger los equipos
             p Mantener actualizado el sistema operativo y el antivirus es fundamental porque corrigen agujeros de seguridad.
-          .tarjeta.color-acento-botones.p-3(x="67.3%" y="55.3%" numero="+")
+          .tarjeta.color-acento-contenido-x.p-3(x="68%" y="53%" numero="+")
             .h5.mb-2 No descargar contenido pirata
             p Descargar música, libros, películas, videos, <i>software</i> de sitios recomendables, siempre tener cuidado con páginas poco conocidas.
-          .tarjeta.color-acento-botones.p-3(x="59.1%" y="91%" numero="+")
+          .tarjeta.color-acento-contenido-x.p-3(x="59.5%" y="87%" numero="+")
             .h5.mb-2 Evitar dar datos personales
             p Mantener la cautela y desconfianza en redes sociales, no compartir datos con contactos o perfiles sospechosos, no aceptar sugerencias o amigos no conocidos.
-          .tarjeta.color-acento-botones.p-3(x="41.1%" y="90.8%" numero="+")
+          .tarjeta.color-acento-contenido-x.p-3(x="40.5%" y="87%" numero="+")
             .h5.mb-2 Contraseñas fuertes
             p Números consecutivos, fechas de cumpleaños, nombre de nuestros hijos, equipo de fútbol favorito, son ejemplos de contraseñas poco seguras.
             p Se recomienda usar contraseñas cambiando letras mayúsculas y minúsculas, números y caracteres especiales, por ejemplo, AbgDho-9823*#.
-          .tarjeta.color-acento-botones.p-3(x="32.8%" y="52%" numero="+")
+          .tarjeta.color-acento-contenido-x.p-3(x="32%" y="50%" numero="+")
             .h5.mb-2 Utilizar protocolos de seguridad
             p Colocar una clave de acceso al computador o servidor, generar cuentas de usuario con contraseñas para equipos compartidos y bloquear el equipo cuando no se esté en frente de él, son buenos protocolos de seguridad.
-          .tarjeta.color-acento-botones.p-3(x="41.1%" y="16.8%" numero="+")
+          .tarjeta.color-acento-contenido-x.p-3(x="40.3%" y="16.2%" numero="+")
             .h5.mb-2 Realizar una copia de seguridad
             p Es importante no depender de una sola fuente de información, es recomendable tener copia de respaldo de nuestro equipo, algún disco duro externo o en la nube.
-    
+      .col-12.d-block.d-md-none
+        figure
+          img(src='@/assets/curso/temas/tema2/10.svg', alt='') 
+        .row.mt-4
+          .col-12.mb-2
+            .tarjeta.color-primario-x.p-3.mb-2
+              .h5.mb-2 Proteger los equipos
+              p.mb-0 Mantener actualizado el sistema operativo y el antivirus es fundamental porque corrigen agujeros de seguridad.
+            .tarjeta.color-primario-x.p-3.mb-2
+              .h5.mb-2 No descargar contenido pirata
+              p.mb-0 Descargar música, libros, películas, videos, <i>software</i> de sitios recomendables, siempre tener cuidado con páginas poco conocidas.
+            .tarjeta.color-primario-x.p-3.mb-2
+              .h5.mb-2 Evitar dar datos personales
+              p.mb-0 Mantener la cautela y desconfianza en redes sociales, no compartir datos con contactos o perfiles sospechosos, no aceptar sugerencias o amigos no conocidos.
+            .tarjeta.color-primario-x.p-3.mb-2
+              .h5.mb-2 Contraseñas fuertes
+              p Números consecutivos, fechas de cumpleaños, nombre de nuestros hijos, equipo de fútbol favorito, son ejemplos de contraseñas poco seguras.
+              p.mb-0 Se recomienda usar contraseñas cambiando letras mayúsculas y minúsculas, números y caracteres especiales, por ejemplo, AbgDho-9823*#.
+            .tarjeta.color-primario-x.p-3.mb-2
+              .h5.mb-2 Utilizar protocolos de seguridad
+              p.mb-0 Colocar una clave de acceso al computador o servidor, generar cuentas de usuario con contraseñas para equipos compartidos y bloquear el equipo cuando no se esté en frente de él, son buenos protocolos de seguridad.
+            .tarjeta.color-primario-x.p-3.mb-2
+              .h5.mb-2 Realizar una copia de seguridad
+              p.mb-0 Es importante no depender de una sola fuente de información, es recomendable tener copia de respaldo de nuestro equipo, algún disco duro externo o en la nube.
     separador
     #t_2_4.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 2.4 Conservación de la información
@@ -147,35 +171,65 @@
         p(data-aos="fade-left") La preservación digital de acuerdo con el Archivo General de la Nación (2018) aplica al documento electrónico de archivo de naturaleza digital con su medio correspondiente en cualquier etapa de su ciclo vital. Esta forma parte de los procesos de la gestión documental, específicamente del proceso de preservación a largo plazo e implica el establecimiento de acciones desde la planeación de la gestión documental hasta la disposición final de los documentos, tal como lo presenta el siguiente recurso.
 
     .row.justify-content-center
-      .col-lg-10.col-12
+      .col-lg-10.col-12.d-none.d-sm-none.d-md-block
         ImagenInfografica.color-acento-botones.mb-5
           template(v-slot:imagen)
             figure
               img(src='@/assets/curso/temas/tema2/12.svg', alt='Imagen decorativa')
-          .tarjeta.color-acento-botones.p-3(x="21.3%" y="73.6%" numero="+")
+          .tarjeta.color-acento-contenido-x.p-3(x="21.3%" y="73.6%" numero="+")
             .h5.mb-2 Planeación
             p Está conformada por todas aquellas actividades administrativas que permiten la adecuada revisión y valoración de toda la información documental, teniendo en cuenta el contexto legal, técnico y funcional de la empresa.
-          .tarjeta.color-acento-botones.p-3(x="29.7%" y="27.8%" numero="+")
+          .tarjeta.color-acento-contenido-x.p-3(x="29.7%" y="27.8%" numero="+")
             .h5.mb-2 Producción
             p Se evalúan todos los documentos de la empresa, desde su creación, ingreso y categorización, sin olvidar su relevancia y funcionalidad en todos los procesos administrativos.
-          .tarjeta.color-acento-botones.p-3(x="41.2%" y="27.8%" numero="+")
+          .tarjeta.color-acento-contenido-x.p-3(x="41.2%" y="27.8%" numero="+")
             .h5.mb-2 Gestión y Trámite
             p Se analizan los documentos con base en su incidencia en los procesos internos y externos de la empresa. Es en este tercer paso se revisan a profundidad todos los trámites por los que debe pasar dicho archivo o documento.
-          .tarjeta.color-acento-botones.p-3(x="52.4%" y="27.8%" numero="+")
+          .tarjeta.color-acento-contenido-x.p-3(x="52.4%" y="27.8%" numero="+")
             .h5.mb-2 Organización
             p Se abarcan todas las operaciones técnicas de gestión documental. Se establecen los elementos de categorización, serie documental, valorización, tiempo de almacenamiento, departamento al que pertenece, tipo de archivo, entre otros.
-          .tarjeta.color-acento-botones.p-3(x="63.4%" y="27.8%" numero="+")
+          .tarjeta.color-acento-contenido-x.p-3(x="63.4%" y="27.8%" numero="+")
             .h5.mb-2 Transferencia
             p Aquí se implementan las políticas de transferencia a los documentos en su fase de archivo.
-          .tarjeta.color-acento-botones.p-3(x="74.6%" y="27.8%" numero="+")
+          .tarjeta.color-acento-contenido-x.p-3(x="74.6%" y="27.8%" numero="+")
             .h5.mb-2 Disposición de Documentos
             p Aquí se consideran todos los procesos de selección y valoración del archivo o documento, todo en beneficio de su conservación. La adecuada disposición de documentos permite el seguimiento de todos los ciclos de vida de cada archivo, con el único fin de darle un tratamiento eficaz, lo que además sirve, posteriormente, para establecer los protocolos de seguridad para su eliminación y destrucción.
-          .tarjeta.color-acento-botones.p-3(x="74.6%" y="53.8%" numero="+")
+          .tarjeta.color-acento-contenido-x.p-3(x="74.6%" y="53.8%" numero="+")
             .h5.mb-2 Valoración
             p Se implementa el procedimiento en el que se determinarán los valores primarios y secundarios de los diferentes archivos o documentos, los cuales ayudan a establecer su relevancia dentro de la empresa para la debida conservación y disposición final, temporal o definitiva.
-          .tarjeta.color-acento-botones.p-3(x="74.6%" y="67.8%" numero="+")
+          .tarjeta.color-acento-contenido-x.p-3(x="74.6%" y="67.8%" numero="+")
             .h5.mb-2 Preservación a Largo Plazo
             p Se identifican todos los procedimientos y requerimientos que se deben llevar a cabo durante todo el procedimiento de gestión documental, de manera que se pueda garantizar su preservación a largo plazo.
+      .col-12.d-block.d-md-none
+        figure
+          img(src='@/assets/curso/temas/tema2/12A.svg', alt='') 
+        .row.mt-4
+          .col-12.mb-2
+            .tarjeta.color-primario-x.p-3.mb-2
+              .h5.mb-2 Planeación
+              p.mb-0 Está conformada por todas aquellas actividades administrativas que permiten la adecuada revisión y valoración de toda la información documental, teniendo en cuenta el contexto legal, técnico y funcional de la empresa.
+            .tarjeta.color-primario-x.p-3.mb-2
+              .h5.mb-2 Producción
+              p.mb-0 Se evalúan todos los documentos de la empresa, desde su creación, ingreso y categorización, sin olvidar su relevancia y funcionalidad en todos los procesos administrativos.
+            .tarjeta.color-primario-x.p-3.mb-2
+              .h5.mb-2 Gestión y Trámite
+              p.mb-0 Se analizan los documentos con base en su incidencia en los procesos internos y externos de la empresa. Es en este tercer paso se revisan a profundidad todos los trámites por los que debe pasar dicho archivo o documento.
+            .tarjeta.color-primario-x.p-3.mb-2
+              .h5.mb-2 Organización
+              p.mb-0 Se abarcan todas las operaciones técnicas de gestión documental. Se establecen los elementos de categorización, serie documental, valorización, tiempo de almacenamiento, departamento al que pertenece, tipo de archivo, entre otros.
+            .tarjeta.color-primario-x.p-3.mb-2
+              .h5.mb-2 Transferencia
+              p.mb-0 Aquí se implementan las políticas de transferencia a los documentos en su fase de archivo.
+            .tarjeta.color-primario-x.p-3.mb-2
+              .h5.mb-2 Disposición de Documentos
+              p.mb-0 Aquí se consideran todos los procesos de selección y valoración del archivo o documento, todo en beneficio de su conservación. La adecuada disposición de documentos permite el seguimiento de todos los ciclos de vida de cada archivo, con el único fin de darle un tratamiento eficaz, lo que además sirve, posteriormente, para establecer los protocolos de seguridad para su eliminación y destrucción.
+            .tarjeta.color-primario-x.p-3.mb-2
+              .h5.mb-2 Valoración
+              p.mb-0 Se implementa el procedimiento en el que se determinarán los valores primarios y secundarios de los diferentes archivos o documentos, los cuales ayudan a establecer su relevancia dentro de la empresa para la debida conservación y disposición final, temporal o definitiva.
+            .tarjeta.color-primario-x.p-3.mb-2
+              .h5.mb-2 Preservación a Largo Plazo
+              p.mb-0 Se identifican todos los procedimientos y requerimientos que se deben llevar a cabo durante todo el procedimiento de gestión documental, de manera que se pueda garantizar su preservación a largo plazo.
+    
     separador
     #t_2_5.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 2.5 Gestión del sistema basado en riesgos
@@ -216,15 +270,17 @@
           h5 Figura 8.
           span <i>Riesgos y consecuencias.</i> 
         figure(data-aos="zoom-in")
-          img(src='@/assets/curso/temas/tema2/15.svg' alt='Imagen que menciona las posibles fuentes de riesgos y consecuencias relacionadas con la seguridad de la información de la organización.')
+          img.d-none.d-sm-none.d-md-block(src='@/assets/curso/temas/tema2/15.svg' alt='Imagen que menciona las posibles fuentes de riesgos y consecuencias relacionadas con la seguridad de la información de la organización.')
+          img.d-block.d-md-none(src='@/assets/curso/temas/tema2/15A.svg' alt='Imagen que menciona las posibles fuentes de riesgos y consecuencias relacionadas con la seguridad de la información de la organización.')
     p.mb-5(data-aos="fade-left") El impacto, por su parte, es la capacidad de saber el estado real de seguridad de un activo antes y después de materializar las amenazas. En un SGSI al concretarse una amenaza el activo cambia de estado, es decir, antes de producirse la amenaza se tiene un valor al activo y después que se efectúe la amenaza se tiene la diferencia entre el estado anterior y el posterior a la amenaza. Se clasifica según el tipo de impacto como:
     .row.justify-content-center.mb-5
-      .col-lg-10.col-12.mb-5
+      .col-lg-10.col-12
         .titulo-sexto.color-acento-contenido.mb-5(data-aos="fade-right")
           h5 Figura 9.
           span <i>Clasificación del impacto.</i> 
         figure(data-aos="zoom-in")
-          img(src='@/assets/curso/temas/tema2/16.svg' alt='Imagen que menciona las posibles fuentes de riesgos y consecuencias relacionadas con la seguridad de la información de la organización.')
+          img.d-none.d-sm-none.d-md-block(src='@/assets/curso/temas/tema2/16.svg' alt='Imagen que menciona las posibles fuentes de riesgos y consecuencias relacionadas con la seguridad de la información de la organización.')
+          img.d-block.d-md-none(src='@/assets/curso/temas/tema2/16A.svg' alt='Imagen que menciona las posibles fuentes de riesgos y consecuencias relacionadas con la seguridad de la información de la organización.')
     .row.justify-content-center.mb-3
       .col-lg-10.col-12
         .cajon.color-secundario.p-4.mb-4(data-aos="fade-right") 
