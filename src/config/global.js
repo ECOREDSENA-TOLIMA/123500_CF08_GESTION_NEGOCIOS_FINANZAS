@@ -232,12 +232,12 @@ export default {
       autores: [
         {
           nombre: 'Milady Tatiana Villamil Castellanos',
-          cargo: 'Responsable del equipo',
+          cargo: 'Responsable del Equipo',
           centro: 'Dirección General',
         },
         {
           nombre: 'Liliana Victoria Morales Gualdrón',
-          cargo: 'Responsable de línea de producción',
+          cargo: 'Responsable de Línea de Producción',
           centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
       ],
@@ -247,35 +247,35 @@ export default {
       autores: [
         {
           nombre: 'Abel Fernando Becerra Carrillo',
-          cargo: 'Experto temático',
+          cargo: 'Experto Temático',
           centro:
             'Centro de la Industria, la Empresa y los Servicios - Regional Norte de Santander',
         },
         {
           nombre: 'Miroslava GonzálezHernández',
-          cargo: 'Diseño y evaluadora instruccional',
+          cargo: 'Diseño y Evaluadora Instruccional',
           centro:
             'Centro de la Industria, la Empresa y los Servicios - Regional Norte de Santander',
         },
         {
           nombre: 'Silvia Milena SequedaCárdenas',
-          cargo: 'Asesoría metodológica',
+          cargo: 'Asesoría Metodológica',
           centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
         },
         {
           nombre: 'Rafael Neftalí Lizcano Reyes',
-          cargo: 'Responsable Equipo de desarrollo curricular',
+          cargo: 'Responsable Equipo de Desarrollo Curricular',
           centro:
             'Centro Industrial del Diseño y la Manufactura - Regional Distrito Capital',
         },
         {
           nombre: 'Julia Isabel Roberto',
-          cargo: 'Corrección de estilo',
+          cargo: 'Corrección de Estilo',
           centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
         },
         {
           nombre: 'Andrés Felipe Velandia Espitia',
-          cargo: 'Evaluación instruccional',
+          cargo: 'Evaluación Instruccional',
           centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
       ],
@@ -285,17 +285,17 @@ export default {
       autores: [
         {
           nombre: 'Ernesto Navarro Jaimes',
-          cargo: 'Producción audiovisual',
+          cargo: 'Producción Audiovisual',
           centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
         {
           nombre: 'Gilberto Junior Rodríguez Rodríguez',
-          cargo: 'Producción audiovisual',
+          cargo: 'Producción Audiovisual',
           centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
         {
           nombre: 'Luis Fernando Botero Mendoza',
-          cargo: 'Diseño web',
+          cargo: 'Diseño Web',
           centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
         {
@@ -309,13 +309,13 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: 'Jorge Eduardo Rueda Peña',
-          cargo: 'Evaluación de contenidos inclusivos y accesibles',
+          nombre: 'Norma Constanza Morales Cruz',
+          cargo: 'Evaluación de Contenidos Inclusivos y Accesibles',
           centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
         {
           nombre: 'Javier Mauricio Oviedo',
-          cargo: 'Validación de recursos educativos digitales',
+          cargo: 'Validación de Recursos Educativos Digitales',
           centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
       ],
