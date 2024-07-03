@@ -308,7 +308,7 @@
         .row.mb-5
           .col-md-12.mb-5.mb-md-0
             LineaTiempoD.color-acento-botones
-              p(numero="1" titulo="WEKA") Es una plataforma de <i>software</i> libre desarrollado por la Universidad de Waikato (Nueva Zelanda), que sirve para desarrollar minería de datos y aprendizaje automático mediante herramientas integradas de preparación, clasificación, regresión, agrupación, minería de reglas de asociación y visualización de datos. Weka está escrito en <i>Java</i> y se puede descargar en el siguiente enlace: https://www.cs.waikato.ac.nz/ml/weka/
+              p(numero="1" titulo="WEKA") Es una plataforma de <i>software</i> libre desarrollado por la Universidad de Waikato (Nueva Zelanda), que sirve para desarrollar minería de datos y aprendizaje automático mediante herramientas integradas de preparación, clasificación, regresión, agrupación, minería de reglas de asociación y visualización de datos. Weka está escrito en <i>Java</i> y se puede descargar en el siguiente enlace: https://ml.cms.waikato.ac.nz/index.html
               p(numero="2" titulo="KNIME") Es una plataforma para minería de datos que permite desarrollar modelos en un entorno gráfico. El <i>software</i> permite crear mediante mezcla, transformación, modelación y visualización de los datos de manera gráfica, también permite la producción para implementar, administrar, consumir e interactuar con todo el volumen de datos recopilados. KNIME tiene una versión de prueba que puede descargarse en: https://www.knime.com/downloads
               p(numero="3" titulo="ORANGE") Es un programa de código abierto que permite realizar minería de datos y análisis predictivo desarrollado por la Universidad de Ljubljana (Eslovenia). Permite crear flujos de trabajo de análisis de datos visualmente con una caja de herramientas grande y diversa. ORANGE puede descargarse en https://orangedatamining.com/
       .col-lg-5.col-md-8.col-10
@@ -328,15 +328,15 @@
             .col-lg-7.col-md-6.mb-4.mb-md-0.col-12
               p Es un entorno de <i>software</i> libre para computación estadística y gráficos. Es unos de los lenguajes más populares, debido a que cuenta con una amplia gama de librerías que incrementan sus funcionalidades. La comunidad de R-Studio mantiene actualizaciones constantes y respaldo continuo.
               p R puede ser descargado gratuitamente en https://www.r-project.org/
-        .py-3.py-md-4(titulo="<i>Python</i>")
+        .py-3.py-md-4(titulo="Python")
           .row
             .col-lg-5.col-md-6.col-12
               figure
                 img(src='@/assets/curso/temas/tema1/18.svg', alt='Imagen decorativa')
                 figcaption Tomado de 1840151sudarshan (2019)
             .col-lg-7.col-md-6.mb-4.mb-md-0.col-12
-              p Es un lenguaje de alto nivel de programación interpretado, permite un trabajo rápido e integración de sistemas de manera eficaz. <i>Python</i> tiene una gran variedad de bibliotecas que permiten el desarrollo de análisis de datos, <i>machine learning</i> e inteligencia artificial de una manera sencilla, logrando explotar al máximo la información recopilada.
-              p <i>Python</i> es un <i>software</i> de código abierto y puede descargarse en la página oficial https://www.python.org/
+              p Es un lenguaje de alto nivel de programación interpretado, permite un trabajo rápido e integración de sistemas de manera eficaz. Python tiene una gran variedad de bibliotecas que permiten el desarrollo de análisis de datos, <i>machine learning</i> e inteligencia artificial de una manera sencilla, logrando explotar al máximo la información recopilada.
+              p Python es un <i>software</i> de código abierto y puede descargarse en la página oficial https://www.python.org/
 
         .py-3.py-md-4(titulo="<i>GNU Octave</i>")
           .row
@@ -347,15 +347,15 @@
             .col-lg-7.col-md-6.mb-4.mb-md-0.col-12
               p Es un programa y lenguaje de programación que permite realizar cálculos numéricos. GNU Octave es considerado el equivalente de <i>software</i> libre de MATLAB. Presenta una sintaxis orientada a las matemáticas con herramientas de visualización y trazado 2D/3D, y se ejecuta <i>GNU/Linux</i>, <i>macOS</i>, <i>BSD</i> y <i>Microsoft Windows</i>.
               p Por ser <i>software</i> libre se puede descargar una versión en su página oficial https://www.gnu.org/software/octave/index
-        .py-3.py-md-4(titulo="<i>Microsoft Power BI</i>")
+        .py-3.py-md-4(titulo="Microsoft Power BI")
           .row
             .col-lg-5.col-md-6.col-12
               figure
                 img(src='@/assets/curso/temas/tema1/20.svg', alt='Imagen decorativa')
                 figcaption Tomado de Krauss (2019)
             .col-lg-7.col-md-6.mb-4.mb-md-0.col-12
-              p Es una herramienta desarrollada por <i>Microsoft</i> que permite el análisis de datos, proporcionando visualización gráfica en el campo del <i>business</i> <i>intelligence</i>. Una de las grandes ventajas de <i>Power</i> <i>BI</i> es su integración con libros de <i>Excel</i>, lo cual permite ampliar el marco de trabajo desde lo más básico hacia lo más avanzado, además de tener un tablero de trabajo colaborativo para el seguimiento de objetivos personales y grupales.
-              p Por ser desarrollado por <i>Microsoft</i> no es de versión libre, pero se puede descargar una versión de prueba en https://powerbi.microsoft.com/es-es/
+              p Es una herramienta desarrollada por Microsoft que permite el análisis de datos, proporcionando visualización gráfica en el campo del <i>business</i> <i>intelligence</i>. Una de las grandes ventajas de <i>Power</i> <i>BI</i> es su integración con libros de Excel, lo cual permite ampliar el marco de trabajo desde lo más básico hacia lo más avanzado, además de tener un tablero de trabajo colaborativo para el seguimiento de objetivos personales y grupales.
+              p Por ser desarrollado por Microsoft no es de versión libre, pero se puede descargar una versión de prueba en https://powerbi.microsoft.com/es-es/
         .py-3.py-md-4(titulo="SAS")
           .row
             .col-lg-5.col-md-6.col-12
@@ -365,21 +365,21 @@
             .col-lg-7.col-md-6.mb-4.mb-md-0.col-12
               p Es un <i>software</i> de solución para el análisis de datos. Permite explorar, analizar y visualizar datos independientemente de su fuente. SAS es muy usado en aplicaciones de redes sociales, <i>Web</i>, <i>marketing</i> <i>digital</i> que permite realizar o perfilar tipos de clientes para lograr predecir sus gustos y comportamiento de consumo.
               p Se puede obtener una versión de prueba en https://www.sas.com/es_co/home.html#
-        .py-3.py-md-4(titulo="<i>Excel</i>")
+        .py-3.py-md-4(titulo="Excel")
           .row
             .col-lg-5.col-md-6.col-12
               figure
                 img(src='@/assets/curso/temas/tema1/22.svg', alt='Imagen decorativa')
                 figcaption Tomado de Ihsanaadil223 (2020)
             .col-lg-7.col-md-6.mb-4.mb-md-0.col-12
-              p Es un <i>software</i> de hoja de cálculo desarrollado por <i>Microsoft</i>. <i>Excel</i> aprende patrones y organiza datos para el ahorro de tiempo. Permite el trabajo colaborativo en línea, presenta los datos de una forma convincente, con formato, minigráficos y tablas para una mejor interpretación y visualización. Quizá, la función más importante es su integración con <i>Power</i> <i>BI</i>.
-              p Por ser desarrollado por <i>Microsoft</i> no es versión libre, pero se puede descargar una versión de prueba para el hogar o la empresa en https://www.microsoft.com/es-es/microsoft-365/excel       
+              p Es un <i>software</i> de hoja de cálculo desarrollado por Microsoft. Excel aprende patrones y organiza datos para el ahorro de tiempo. Permite el trabajo colaborativo en línea, presenta los datos de una forma convincente, con formato, minigráficos y tablas para una mejor interpretación y visualización. Quizá, la función más importante es su integración con Power BI.
+              p Por ser desarrollado por Microsoft no es versión libre, pero se puede descargar una versión de prueba para el hogar o la empresa en https://www.microsoft.com/es-es/microsoft-365/excel       
             
     separador
     #t_1_6.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 1.6 <i>Big data</i>
     
-    p.mb-5(data-aos="fade-left") El desarrollo de las Tecnologías de la Información y la Comunicación (TIC) y el aumento de la cobertura de Internet ha facilitado que en los últimos años se generen datos de manera exponencial y en diversas fuentes de información. El volumen, la velocidad y la variedad de los datos generados en este contexto inicialmente fue un reto tecnológico; pero con la aparición de nuevas técnicas y formas de almacenamiento, procesamiento, análisis y visualización se crearon las condiciones para aprovechar su potencial. Por medio de la datificación las elecciones de consumo, las preferencias individuales, colectivas y los aspectos de la vida diaria se han transformado en datos.
+    p.mb-5(data-aos="fade-left") El desarrollo de las Tecnologías de la Información y la Comunicación (TIC) y el aumento de la cobertura de Internet ha facilitado que en los últimos años se generen datos de manera exponencial y en diversas fuentes de información. El volumen, la velocidad y la variedad de los datos generados en este contexto inicialmente fue un reto tecnológico; pero con la aparición de nuevas técnicas y formas de almacenamiento, procesamiento, análisis y visualización se crearon las condiciones para aprovechar su potencial. Por medio de la datificación, las elecciones de consumo, las preferencias individuales, colectivas y los aspectos de la vida diaria se han transformado en datos.
 
     .row.justify-content-center.mb-3
       .col-md-10.col-12
@@ -393,9 +393,9 @@
     .row.justify-content-center.mb-3 
       .col-lg-10.col-12
         .tarjeta.p-4.mb-3(style="background-color: #0C5E46")
-          p(style="color: #ffff") En ese contexto los datos se han convertido en uno de los activos más importantes para el sector público en la medida en que aportan beneficios para tomar decisiones informadas. La adecuada gestión de los datos a lo largo de todo su ciclo de vida, desde su recopilación o generación, clasificación, almacenamiento, uso, compartición y reutilización, conlleva a extraer el valor de estos para crear un análisis descriptivo, predictivo o prescriptivo que permita diseñar nuevas estrategias, analizar con un enfoque más amplio problemáticas de carácter público y tomar decisiones. 
+          p(style="color: #ffff") En ese contexto, los datos se han convertido en uno de los activos más importantes para el sector público en la medida en que aportan beneficios para tomar decisiones informadas. La adecuada gestión de los datos a lo largo de todo su ciclo de vida, desde su recopilación o generación, clasificación, almacenamiento, uso, compartición y reutilización, conlleva a extraer el valor de estos para crear un análisis descriptivo, predictivo o prescriptivo que permita diseñar nuevas estrategias, analizar con un enfoque más amplio problemáticas de carácter público y tomar decisiones. 
     
-    p.mb-5(data-aos="fade-left") En el contexto actual uno de los habilitadores para la transformación digital es la explotación de los datos para aumentar el valor público de las entidades, de cara a la prestación de bienes y servicios para los ciudadanos.
+    p.mb-5(data-aos="fade-left") En el contexto actual, uno de los habilitadores para la transformación digital es la explotación de los datos para aumentar el valor público de las entidades, de cara a la prestación de bienes y servicios para los ciudadanos.
 
     .row.justify-content-center.mb-3
       .cajon.color-secundario.p-4.mb-4(data-aos="fade-right")

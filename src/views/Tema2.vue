@@ -64,7 +64,7 @@
               figure
                 img(src='@/assets/curso/temas/tema2/5.svg', alt='Imagen decorativa')
             .col-lg-7.col-md-6.mb-4.mb-md-0.col-12
-              p Como su nombre lo indica, hace la función de una pared de bloqueo. Es un sistema cuya función es prevenir y protegerlo privado de ataques de otras redes.
+              p Como su nombre lo indica, hace la función de una pared de bloqueo. Es un sistema cuya función es prevenir y protejer lo privado de ataques de otras redes.
               p Su funcionamiento es sencillo: escanea los paquetes de red, permitiéndoles o bloqueándolos según las reglas definidas por un administrador.
 
         .py-3.py-md-4(titulo="Servidor <em>proxy</em>")
@@ -73,7 +73,7 @@
               figure
                 img(src='@/assets/curso/temas/tema2/6.svg', alt='Imagen decorativa')
             .col-lg-7.col-md-6.mb-4.mb-md-0.col-12
-              p Un <em>proxy</em> es un es un servidor, puede ser un programa o dispositivo físico, que actúa de intermediario entre conexiones del navegador e Internet, filtrando todos los paquetes entre ambos.
+              p Un <em>proxy</em> es un servidor, puede ser un programa o dispositivo físico, que actúa de intermediario entre conexiones del navegador e Internet, filtrando todos los paquetes entre ambos.
               p Asimismo, establece un sistema de autentificación, que limita el acceso a la red externa, por lo cual, se pueden generar los registros sobre sitios, visitas y demás datos de navegación.
         .py-3.py-md-4(titulo="Cifrado de punto final o <i>end point disk encryption</i>")
           .row
@@ -137,7 +137,7 @@
             p Es importante no depender de una sola fuente de información, es recomendable tener copia de respaldo de nuestro equipo, algún disco duro externo o en la nube.
       .col-12.d-block.d-md-none
         figure
-          img(src='@/assets/curso/temas/tema2/10.svg', alt='') 
+          img(src='@/assets/curso/temas/tema2/10b.svg', alt='') 
         .row.mt-4
           .col-12.mb-2
             .tarjeta.color-primario-x.p-3.mb-2
@@ -184,7 +184,7 @@
             p Se evalúan todos los documentos de la empresa, desde su creación, ingreso y categorización, sin olvidar su relevancia y funcionalidad en todos los procesos administrativos.
           .tarjeta.color-acento-contenido-x.p-3(x="41.2%" y="27.8%" numero="+")
             .h5.mb-2 Gestión y Trámite
-            p Se analizan los documentos con base en su incidencia en los procesos internos y externos de la empresa. Es en este tercer paso se revisan a profundidad todos los trámites por los que debe pasar dicho archivo o documento.
+            p Se analizan los documentos con base en su incidencia en los procesos internos y externos de la empresa. En este tercer paso se revisan a profundidad todos los trámites por los que debe pasar dicho archivo o documento.
           .tarjeta.color-acento-contenido-x.p-3(x="52.4%" y="27.8%" numero="+")
             .h5.mb-2 Organización
             p Se abarcan todas las operaciones técnicas de gestión documental. Se establecen los elementos de categorización, serie documental, valorización, tiempo de almacenamiento, departamento al que pertenece, tipo de archivo, entre otros.
