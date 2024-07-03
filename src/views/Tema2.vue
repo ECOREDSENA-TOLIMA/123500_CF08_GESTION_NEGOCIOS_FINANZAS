@@ -64,7 +64,7 @@
               figure
                 img(src='@/assets/curso/temas/tema2/5.svg', alt='Imagen decorativa')
             .col-lg-7.col-md-6.mb-4.mb-md-0.col-12
-              p Como su nombre lo indica, hace la función de una pared de bloqueo. Es un sistema cuya función es prevenir y protejer lo privado de ataques de otras redes.
+              p Como su nombre lo indica, hace la función de una pared de bloqueo. Es un sistema cuya función es prevenir y proteger lo privado de ataques de otras redes.
               p Su funcionamiento es sencillo: escanea los paquetes de red, permitiéndoles o bloqueándolos según las reglas definidas por un administrador.
 
         .py-3.py-md-4(titulo="Servidor <em>proxy</em>")

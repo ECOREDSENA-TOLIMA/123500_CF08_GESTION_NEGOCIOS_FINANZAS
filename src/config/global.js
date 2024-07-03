@@ -249,13 +249,13 @@ export default {
           nombre: 'Abel Fernando Becerra Carrillo',
           cargo: 'Experto Temático',
           centro:
-            ' - Regional Norte de Santander - Centro de la Industria, la Empresa y los Servicios',
+            'Regional Norte de Santander - Centro de la Industria, la Empresa y los Servicios',
         },
         {
           nombre: 'Miroslava GonzálezHernández',
           cargo: 'Diseño y Evaluadora Instruccional',
           centro:
-            ' - Regional Norte de Santander - Centro de la Industria, la Empresa y los Servicios',
+            'Regional Norte de Santander - Centro de la Industria, la Empresa y los Servicios',
         },
         {
           nombre: 'Silvia Milena SequedaCárdenas',
